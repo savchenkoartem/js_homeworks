@@ -13,8 +13,10 @@ let flatsInBuiling=flatInTheEntrance*parseInt(howManyEntrance.value);
 
 
 if (numberOfFlat1>flatsInBuiling) {
-alert(`вы ввели не верный номер квартиры так как в доме всего ${flatsInBuiling} квартир`)
+result.innerHTML=(`вы ввели не верный номер квартиры так как в доме всего ${flatsInBuiling} квартир`)
 return;
+} else if (numberOfFlat1==0) {
+result.innerHTML=('квартира №0 находится скорее всего в подвале:)');
 } else {
 
 let entrance=1;
@@ -29,7 +31,7 @@ whichFloor-=parseInt(floor.value);
 entrance++;
 }
 }
-alert(`квартира №${numberOfFlat1} находиться в ${entrance} подъезде на ${whichFloor} этаже`);
+result.innerHTML=(`квартира №${numberOfFlat1} находиться в ${entrance} подъезде на ${whichFloor} этаже`);
 }
 }
 

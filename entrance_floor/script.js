@@ -1,10 +1,10 @@
 
 
-function whichEntrance (floor,flatOnThefloor,howManyEntrance,numberOfFlat) {
-floor=document.querySelector('.numberfloor');
-flatOnThefloor=document.querySelector('.numberflat');
-howManyEntrance=document.querySelector('.numberentrance');
-numberOfFlat=document.querySelector('.numberofFlat');
+function whichEntrance () {
+let floor=document.querySelector('.numberfloor');
+let flatOnThefloor=document.querySelector('.numberflat');
+let howManyEntrance=document.querySelector('.numberentrance');
+let numberOfFlat=document.querySelector('.numberofFlat');
 let numberOfFlat1=parseInt(numberOfFlat.value);
 let result=document.querySelector('.result');
     

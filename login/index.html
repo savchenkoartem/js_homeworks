@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN</title>
+<style>
+    .conteiner {
+width: 70%;
+height: 100vh;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+    .cont1 {
+background-color: #485564;
+width: 100%;
+height: 600px;
+margin-top: 20px;
+flex-direction: column;
+border: 3px solid black;
+}
+
+    input {
+background-color: #485564;
+color: white;
+border: 1px solid #838E94;
+width: 300px;
+height: 50px;
+margin: 10px;
+font-size: 25px;
+}
+
+    input::placeholder {
+color: #838E94;
+padding-left: 20px;
+font-size: 25px;
+}
+
+    #registr,#start {
+background-color: #1AB188;
+}
+    button,.text {
+color: white;
+font-size: 25px;
+}
+
+
+    #signin {
+background-color: #435259;
+}
+    #signin,#registr {
+width: 250px;
+height: 50px;
+border: none;
+cursor: pointer;
+}
+
+    #formreg {
+padding: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+height: 80%;
+}
+    #start {
+width: 100%;
+height: 100px;
+font-size: 40px;
+letter-spacing: 2px;
+border: none;
+margin-bottom: 0;
+cursor: pointer;
+}
+
+    #mail,#Password {
+width: 630px;
+}
+
+
+    
+
+</style>
+</head>
+<body>
+<div class="conteiner">
+<div class="cont1">
+<form action="#" class="active" id="formreg">
+<div class="but1">
+<button id="registr">Sign Up</button>
+<button id="signin">Log In</button>
+    </div>
+<div class="text">Sign Up for Free</div>
+<div class="place">
+<input type="text" class="name" placeholder="First Name">
+<input type="text" class="lastname" placeholder="Last Name">
+    </div>
+<div class="email"><input type="email" id="mail" placeholder="Email Adress"></div>
+<div class="pass"><input type="password" id="Password" placeholder="Password"></div>
+<button id="start">GET STARTED</button>
+</form>
+    </div>
+
+
+</div>
+    
+</body>
+</html>
